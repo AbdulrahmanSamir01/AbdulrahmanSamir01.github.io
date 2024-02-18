@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="index.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="google-logo.svg">
+    <title>Image Google Search</title>
+</head>
+<body>
+    <header>
+        <div id="elements">
+            <a class="element-links" href="index.html">Google Search</a>
+            <a class="element-links" href="advanced_search.html">Advanced Google Search</a>
+        </div>
+    </header>
+    <main id="main">
+        <div>
+            <img id="photo_img" src="photo.svg" alt="Google Logo">
+            <img id="google_img" src="google.svg" alt="Google Logo">
+        </div>
+
+        <form action="https://google.com/search">
+            <input id="input_text" type="text" name="q"  placeholder="Image Google Search">
+            <input type="hidden" name="tbm" value="isch"> 
+
+            <div id="divo">
+                <input id="input_submit" type="submit" value="Google Search">
+            </div>
+    
+        </form>
+
+    </main>
+</body>
+</html>
